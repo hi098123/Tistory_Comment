@@ -2,7 +2,7 @@
 
 ## 설정하기
 ``` js
-Comment_option={"link":true,"prevent_rp_del":false,"remove_report":false,"comment_urls":0,"comment_urls_open":0}
+Comment_option={"link":true,"prevent_rp_del":false,"remove_report":false,"comment_urls":0,"comment_urls_open":0,"comment_del":false}
 ```
 ### or
 ``` js
@@ -17,3 +17,4 @@ Comment_option.link=false;
   - 화이트리스트 사용법 : Comment_option.comment_urls=["hi098123.tistory.com","tistory.com"]
   - 자바스크립트 배열로 comment_urls값을 설정
 - comment_urls_open : {0: 현재 창에서 열기, 1: 새탭으로 열기}
+- comment_del : {false(default) 검색엔진에 댓글 수집함, true: 검색엔진에 댓글 수집안함}
